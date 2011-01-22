@@ -100,6 +100,10 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Assertions\String\ShouldBeEmptyAssertionSpecs.cs" />
+    <Compile Include="Assertions\String\ShouldBeNullAssertionSpecs.cs" />
+    <Compile Include="Assertions\String\ShouldNotBeEmptyAssertionSpecs.cs" />
+    <Compile Include="Assertions\String\ShouldNotBeNullAssertionSpecs.cs" />
     <Compile Include="Factories\ContextFactorySpecs.cs" />
     <Compile Include="Utility\NamingSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

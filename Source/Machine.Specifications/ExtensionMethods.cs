@@ -412,7 +412,7 @@ does contain: {2}", items.EachToUsefulString(), list.EachToUsefulString(), conta
 
     public static void ShouldBeEmpty(this string aString)
     {
-	  if (aString != string.Empty)
+      if (aString != string.Empty)
       {
         throw NewException("Should be empty but is {0}", aString);
       }
